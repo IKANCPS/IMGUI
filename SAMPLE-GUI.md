@@ -1,37 +1,43 @@
-# 📚 Categorized ImGui Documentation
+# 🎨 ImGui Lua Documentation
 
-**Generated:** 2025-08-17 14:15:17  
-**Lua Version:** Lua 5.4  
-
----
-
-## 📊 Statistik
-- **Functions:** 250 (dikategorikan dalam 0 kategori)  
-- **Tables/Enums:** 15 (Total items: 217)  
-- **Other Properties:** 0  
-- **Global ImGui Functions:** 2  
+> **Generated:** 2025-08-17 14:15:17  
+> **Lua Version:** 5.4  
 
 ---
 
-## 📋 Daftar Isi (Table of Contents)
-
-1. 📝 **Widgets - Input** (29 functions)  
-2. 🪟 **Window & Layout** (65 functions)  
-3. 🔘 **Widgets - Basic** (30 functions)  
-4. 🖱️ **Input & Interaction** (21 functions)  
-5. 🖼️ **Drawing & Rendering** (2 functions)  
-6. 📊 **Widgets - Data** (2 functions)  
-7. 🔧 **Utilities & Helpers** (8 functions)  
-8. 🌐 **Uncategorized** (69 functions)  
-9. 🗂️ **Containers & Popups** (4 functions)  
-10. 📏 **Layout & Positioning** (13 functions)  
-11. 🎨 **Style & Theming** (7 functions)  
-12. 🗂️ **Tables / Enums** (15 tables)  
-13. 🌐 **Global Functions** (2 functions)  
+## 📊 Statistik Ringkas
+| Type                | Jumlah |
+|---------------------|--------|
+| Functions           | 250    |
+| Tables / Enums      | 15     |
+| Items dalam Tables  | 217    |
+| Other Properties    | 0      |
+| Global Functions    | 2      |
 
 ---
 
+## 📂 Daftar Kategori
+1. 📝 Widgets - Input (29)  
+2. 🪟 Window & Layout (65)  
+3. 🔘 Widgets - Basic (30)  
+4. 🖱️ Input & Interaction (21)  
+5. 🖼️ Drawing & Rendering (2)  
+6. 📊 Widgets - Data (2)  
+7. 🔧 Utilities & Helpers (8)  
+8. 🌐 Uncategorized (69)  
+9. 🗂️ Containers & Popups (4)  
+10. 📏 Layout & Positioning (13)  
+11. 🎨 Style & Theming (7)  
+12. 🗂️ Tables / Enums (15)  
+13. 🌐 Global Functions (2)  
+
 ---
 
-## 🔍 Functions by Category
-*(detail kategori dan fungsi bisa ditaruh di bawah bagian ini)*
+## ⚡ Quick Reference
+
+### Window
+```lua
+if ImGui.Begin("Window Title") then
+    -- Your content here
+    ImGui.End()
+end
